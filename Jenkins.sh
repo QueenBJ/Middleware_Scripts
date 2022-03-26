@@ -35,6 +35,8 @@ systemctl status jenkins | grep active |awk -F ":" '{print$2$3$4$5}'
 
   # Open port 8080
 sleep 1
+
+systemctl start firewalld 
 sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
 sudo firewall-cmd --reload
 
