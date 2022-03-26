@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 #Author: QueenB
 #Date: 3/10/2022
 #Description: Installation of Jenkins on a CentOS 7 server      
